@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
  
-const Counter2 = () => {
+const CounterHooks = () => {
   const [count, updateCount] = useState(0); 
   const handleClick = () => updateCount(count + 1);
 
@@ -14,4 +14,4 @@ const Counter2 = () => {
   );
 }
  
-export default Counter2;
+export default CounterHooks;

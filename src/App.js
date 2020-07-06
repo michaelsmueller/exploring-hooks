@@ -1,8 +1,9 @@
 import React from 'react';
-import Counter from './counter';
-import Counter2 from './counter2';
+import CounterClass from './CounterClass';
+import CounterHooks from './CounterHooks';
 import List from './List';
 import StopWatch from './StopWatch';
+import DataFetching from './DataFetching.js';
 import './App.css';
 
 function App() {
@@ -10,9 +11,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <StopWatch />
-        <Counter />
-        <Counter2 />
+        <CounterClass />
+        <CounterHooks />
         <List />
+        <DataFetching />
       </header>
     </div>
   );

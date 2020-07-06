@@ -1,6 +1,6 @@
 import React from 'react';
  
-class Counter extends React.Component {
+class CounterClass extends React.Component {
   state = { count: 0 };
  
   handleClick = () => this.setState({ count: this.state.count + 1 })
@@ -18,4 +18,4 @@ class Counter extends React.Component {
   }
 }
  
-export default Counter;
+export default CounterClass;
